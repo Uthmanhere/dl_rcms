@@ -1,0 +1,222 @@
+Date/time,v80;wind_speed;Avg,v80;wind_speed;Max,v80;wind_speed;Min,v80;wind_speed;StdDev,v80;wind_speed;Count,v80V;wind_speed;Avg,v80V;wind_speed;Max,v80V;wind_speed;Min,v80V;wind_speed;StdDev,v80V;wind_speed;Count,v60;wind_speed;Avg,v60;wind_speed;Max,v60;wind_speed;Min,v60;wind_speed;StdDev,v60;wind_speed;Count,v40;wind_speed;Avg,v40;wind_speed;Max,v40;wind_speed;Min,v40;wind_speed;StdDev,v40;wind_speed;Count,v20;wind_speed;Avg,v20;wind_speed;Max,v20;wind_speed;Min,v20;wind_speed;StdDev,v20;wind_speed;Count,dir78.5 (deg);wind_direction;Avg,dir78.5 (deg);wind_direction;StdDev,dir78.5 (deg);wind_direction;Count,dir58.5 (deg);wind_direction;Avg,dir58.5 (deg);wind_direction;StdDev,dir58.5 (deg);wind_direction;Count,Temp/Hum5;humidity;Avg,Temp/Hum5;humidity;Max,Temp/Hum5;humidity;Min,Temp/Hum5;humidity;StdDev,Temp/Hum5;humidity;Count,temp76;temperature;Avg,temp76;temperature;Max,temp76;temperature;Min,temp76;temperature;StdDev,temp76;temperature;Count,Temp/Hum5;temperature;Avg,Temp/Hum5;temperature;Max,Temp/Hum5;temperature;Min,Temp/Hum5;temperature;StdDev,Temp/Hum5;temperature;Count,baro (mbar);air_pressure;Avg,baro (mbar);air_pressure;Max,baro (mbar);air_pressure;Min,baro (mbar);air_pressure;StdDev,baro (mbar);air_pressure;Count,A1;Avg,A1;Max,A1;Min,A1;StdDev,A2;Avg,A2;Max,A2;Min,A2;StdDev,A3;Avg,A3;Max,A3;Min,A3;StdDev,A4;Avg,A4;Max,A4;Min,A4;StdDev,C1;Avg,C1;Max,C1;Min,C1;StdDev,C2;Avg,C2;Max,C2;Min,C2;StdDev,C3;Avg,C3;Max,C3;Min,C3;StdDev,C4;Avg,C4;Max,C4;Min,C4;StdDev,C5;Avg,C5;Max,C5;Min,C5;StdDev,D1;Avg,D1;Max,D1;Min,D1;StdDev,D2;Avg,D2;Max,D2;Min,D2;StdDev,V;Avg,V;Max,V;Min,I;Avg,I;Max,I;Min,T,addr
+2016-02-19 10:00:00,0.0000,0.0000,0.0000,0.0000,322,0.0000,0.0000,0.0000,0.0000,322,0.0000,0.0000,0.0000,0.0000,322,0.0000,0.0000,0.0000,0.0000,322,0.0000,0.0000,0.0000,0.0000,322,---,---,0,---,---,0,-0.3376,-0.3052,-0.3662,0.0100,322,-30.43221,-30.42421,-30.43642,0.00405,322,-30.28221,-30.26551,-30.29603,0.00580,322,954.2596,954.5946,954.1978,0.0543,322,3.5426,3.5459,3.5420,0.0005,-0.00282,-0.00266,-0.00296,0.00006,-0.0034,-0.0031,-0.0037,0.0001,-0.00432,-0.00424,-0.00436,0.00004,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,---,---,---,---,---,---,---,---,12.26,12.26,12.26,65.0373,72,60,24.0,1
+2016-02-19 10:10:00,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,---,---,0,---,---,0,-0.3375,-0.3052,-0.3662,0.0111,600,-30.43223,-30.42421,-30.43642,0.00409,600,-30.28289,-30.26856,-30.29908,0.00613,600,954.2405,954.2894,953.9232,0.0598,600,3.5424,3.5429,3.5392,0.0006,-0.00283,-0.00269,-0.00299,0.00006,-0.0034,-0.0031,-0.0037,0.0001,-0.00432,-0.00424,-0.00436,0.00004,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,---,---,---,---,---,---,---,---,12.26,12.31,12.26,65.1200,78,60,24.0,37
+2016-02-19 10:20:00,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,---,---,0,---,---,0,-0.3371,-0.3052,-0.3662,0.0092,600,-30.43141,-30.42421,-30.43642,0.00427,600,-30.28395,-30.26856,-30.30213,0.00583,600,953.9629,954.2894,953.8926,0.0828,600,3.5396,3.5429,3.5389,0.0008,-0.00284,-0.00269,-0.00302,0.00006,-0.0034,-0.0031,-0.0037,0.0001,-0.00431,-0.00424,-0.00436,0.00004,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,---,---,---,---,---,---,---,---,12.26,12.31,12.26,65.0067,70,58,24.0,96
+2016-02-19 10:30:00,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,---,---,0,---,---,0,-0.3369,-0.3052,-0.3662,0.0094,600,-30.43064,-30.42421,-30.43642,0.00407,600,-30.28662,-30.26856,-30.30519,0.00631,600,953.9521,953.9842,953.8926,0.0159,600,3.5395,3.5398,3.5389,0.0002,-0.00287,-0.00269,-0.00305,0.00006,-0.0034,-0.0031,-0.0037,0.0001,-0.00431,-0.00424,-0.00436,0.00004,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,---,---,---,---,---,---,---,---,12.26,12.36,12.16,68.5533,159,23,24.3,155
+2016-02-19 10:40:00,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,---,---,0,---,---,0,-0.3371,-0.3052,-0.3662,0.0095,600,-30.43018,-30.42115,-30.46999,0.00416,600,-30.29036,-30.27162,-30.30519,0.00673,600,953.9562,953.9842,953.6485,0.0187,600,3.5396,3.5398,3.5365,0.0002,-0.00290,-0.00272,-0.00305,0.00007,-0.0034,-0.0031,-0.0037,0.0001,-0.00430,-0.00421,-0.00470,0.00004,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,---,---,---,---,---,---,---,---,12.25,12.31,12.16,74.3383,159,60,25.0,215
+2016-02-19 10:50:00,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,---,---,0,---,---,0,-0.3374,-0.3052,-0.3662,0.0085,600,-30.42970,-30.42115,-30.43642,0.00404,600,-30.29096,-30.27467,-30.30519,0.00607,600,954.2252,954.3199,953.9232,0.1060,600,3.5423,3.5432,3.5392,0.0011,-0.00291,-0.00275,-0.00305,0.00006,-0.0034,-0.0031,-0.0037,0.0001,-0.00430,-0.00421,-0.00436,0.00004,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,---,---,---,---,---,---,---,---,12.25,12.31,12.21,62.1700,72,58,25.0,274
+2016-02-19 11:00:00,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,0.0000,0.0000,0.0000,0.0000,600,---,---,0,---,---,0,-0.3374,-0.3052,-0.3662,0.0093,600,-30.42935,-30.42115,-30.43642,0.00407,600,-30.29176,-30.27467,-30.30824,0.00641,600,954.3741,954.6251,954.2283,0.1511,600,3.5437,3.5463,3.5423,0.0015,-0.00292,-0.00275,-0.00308,0.00006,-0.0034,-0.0031,-0.0037,0.0001,-0.00429,-0.00421,-0.00436,0.00004,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,---,---,---,---,---,---,---,---,12.21,12.26,12.11,72.3817,159,60,25.0,332
+2016-02-19 11:10:00,0.0000,0.0000,0.0000,0.0000,195,0.0000,0.0000,0.0000,0.0000,195,0.0000,0.0000,0.0000,0.0000,195,0.0000,0.0000,0.0000,0.0000,195,0.0000,0.0000,0.0000,0.0000,195,---,---,0,---,---,0,-0.3374,-0.3357,-0.3662,0.0071,195,-30.42973,-30.42115,-30.43336,0.00398,195,-30.29511,-30.28077,-30.30824,0.00591,195,954.5842,954.6251,954.2589,0.0468,195,3.5458,3.5463,3.5426,0.0005,-0.00295,-0.00281,-0.00308,0.00006,-0.0034,-0.0034,-0.0037,0.0001,-0.00430,-0.00421,-0.00433,0.00004,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,---,---,---,---,---,---,---,---,12.25,12.31,12.16,68.1333,76,58,25.0,392
+
+[System]
+serial=D153071
+type=Meteo-40M
+name=Chakri
+timezone=UTC+05:00
+source_data_storage_total=1960.512 MiB
+software_version=1.5.8+14-1
+latitude=
+longitude=
+altitude=
+cecs_power_permanent=false
+modem_permanent=false;S1
+ethernet_permanent=false;none
+[Summary]
+csv_created=2016-06-15 15:18:21
+source_data_storage_used=485.723 MiB
+[Evaluation]
+partial=false
+file_interval=daily
+stat_interval=10 min
+[Adjustment]
+CS1=200.23 μA
+CS2=200.00 μA
+[Master]
+rate=1 s
+serial_setting=38400 8N1
+[Date/time]
+statistics=First;
+[v80;wind_speed]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=m/s
+sensor_label=v80
+sensor_height=80
+sensor_type=anemometer
+sensor_model=Thies Anemometer First Class Advanced
+formula=linear_cnt
+formula_params=C4 var_period var_offset var_slope
+var_period=1
+var_offset=0.2528
+var_slope=0.04596
+[v80V;wind_speed]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=m/s
+sensor_label=v80V
+sensor_height=80
+sensor_type=anemometer
+sensor_model=Vector L100 First Class
+formula=linear_cnt
+formula_params=C5 var_period var_offset var_slope
+var_period=1
+var_offset=0.1726
+var_slope=0.09726
+[v60;wind_speed]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=m/s
+sensor_label=v60
+sensor_height=60
+sensor_type=anemometer
+sensor_model=Thies Anemometer First Class Advanced
+formula=linear_cnt
+formula_params=C3 var_period var_offset var_slope
+var_period=1
+var_offset=0.2641
+var_slope=0.04591
+[v40;wind_speed]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=m/s
+sensor_label=v40
+sensor_height=40
+sensor_type=anemometer
+sensor_model=Thies Anemometer First Class Advanced
+formula=linear_cnt
+formula_params=C2 var_period var_offset var_slope
+var_period=1
+var_offset=0.2279
+var_slope=0.04599
+[v20;wind_speed]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=m/s
+sensor_label=v20
+sensor_height=20
+sensor_type=anemometer
+sensor_model=Thies Anemometer First Class Advanced
+formula=linear_cnt
+formula_params=C1 var_period var_offset var_slope
+var_period=1
+var_offset=0.2399
+var_slope=0.046
+[dir78.5 (deg);wind_direction]
+statistics=Avg;StdDev;Count;
+unit=°
+sensor_label=dir78.5 (deg)
+sensor_height=78.5
+sensor_type=wind_vane
+sensor_model=Thies Wind Vane 10 Bits Serial Synchron
+formula=windvane_dig
+formula_params=D2 var_offset var_slope
+var_offset=1.3334
+var_slope=0.3515625
+[dir58.5 (deg);wind_direction]
+statistics=Avg;StdDev;Count;
+unit=°
+sensor_label=dir58.5 (deg)
+sensor_height=58.5
+sensor_type=wind_vane
+sensor_model=Thies Wind Vane 10 Bits Serial Synchron
+formula=windvane_dig
+formula_params=D1 var_offset var_slope
+var_offset=0.984
+var_slope=0.3515625
+[Temp/Hum5;humidity]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=%
+sensor_label=Temp/Hum5
+sensor_height=5
+sensor_type=hygro_thermo
+sensor_model=Galltec Thermo-Hygro Active KP
+formula=linear_humidity
+formula_params=A3 var_clip var_offset var_slope
+var_clip=100
+var_offset=0
+var_slope=100
+[temp76;temperature]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=°C
+sensor_label=temp76
+sensor_height=76
+sensor_type=hygro_thermo
+sensor_model=Galltec Thermosensor Active TP
+formula=linear
+formula_params=A4 var_offset var_slope
+var_offset=-30
+var_slope=100
+[Temp/Hum5;temperature]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=°C
+sensor_label=Temp/Hum5
+sensor_height=5
+sensor_type=hygro_thermo
+sensor_model=Galltec Thermo-Hygro Active KP
+formula=linear
+formula_params=A2 var_offset var_slope
+var_offset=-30
+var_slope=100
+[baro (mbar);air_pressure]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=mbar
+sensor_label=baro (mbar)
+sensor_height=4
+sensor_type=barometer
+sensor_model=Barometric Pressure Sensor AB100
+formula=linear
+formula_params=A1 var_offset var_slope
+var_offset=600
+var_slope=100
+[A1]
+statistics=Avg;Max;Min;StdDev;
+unit=V
+rate=1 s
+range=10 V
+[A2]
+statistics=Avg;Max;Min;StdDev;
+unit=V
+rate=1 s
+range=1 V
+[A3]
+statistics=Avg;Max;Min;StdDev;
+unit=V
+rate=1 s
+range=10 V
+[A4]
+statistics=Avg;Max;Min;StdDev;
+unit=V
+rate=1 s
+range=1 V
+[C1]
+statistics=Avg;Max;Min;StdDev;
+unit=I
+rate=1 s
+[C2]
+statistics=Avg;Max;Min;StdDev;
+unit=I
+rate=1 s
+[C3]
+statistics=Avg;Max;Min;StdDev;
+unit=I
+rate=1 s
+[C4]
+statistics=Avg;Max;Min;StdDev;
+unit=I
+rate=1 s
+[C5]
+statistics=Avg;Max;Min;StdDev;
+unit=I
+rate=1 s
+[D1]
+statistics=Avg;Max;Min;StdDev;
+protocol=thies10bit
+rate=1 s
+[D2]
+statistics=Avg;Max;Min;StdDev;
+protocol=thies10bit
+rate=1 s
+[V]
+statistics=Avg;Max;Min;
+unit=V
+[I]
+statistics=Avg;Max;Min;
+unit=mA
+[T]
+statistics=Avg;
+unit=°C

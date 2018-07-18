@@ -1,0 +1,63 @@
+The wind measurement campaign that has generated this data was commissioned by The World Bank with funding from the Energy Sector Management Assistance Program (ESMAP). 
+The data is made freely available under The World Bank’s open data policy.
+More information at: http://www.esmap.org/RE_Mapping
+
+LOCATION
+Site Name : PK_Wind_Chakri_Punjab
+Equipment : 80 m Triangular Guyed Lattice Tower
+Host Institution : 
+Elevation (m) : 360
+Latitude (positive North,decimal degrees) : 33.320428
+Longitude (positive East,decimal degrees) : 72.738250
+
+TIME
+Time Zone : None
+10 minute averaged data, computed from at least 1 Hz observations
+Original data temporal resolution : 1 sec.
+
+SERVICE PROVIDER
+Company : 3E
+Address : 6 Quai à la Chaux - 1000 Bruxelles - Belgium
+Tel : +32 (0) 2 217 58 68
+Web : www.3e.eu
+Email : info@3e.eu
+
+SENSOR SUMMARY
+Sensor manufacturer;Height;Orientation;Sensor Type;Model;Start Date;End Date;Serial Number;Slope;Offset
+Thies;80m;342ᵒ;anemometer;Anemometer First Class Advanced;20160219;-;07 157646;0.04596;0.2528
+Vector;80m;162ᵒ;anemometer;L100 First Class;20160219;-;16799;0.09726;0.1726
+Thies;78.5m;342ᵒ;wind_vane;Wind Vane 10 Bits Serial Synchron;20160219;-;05 150037;0.351562;1.3334
+Galltec;76m;-;hygro_thermo;Thermosensor Active TP;20160219;-;154309;100;-30
+Thies;60m;342ᵒ;anemometer;Anemometer First Class Advanced;20160219;-;07 157645;0.04591;0.2641
+Thies;58.5m;342ᵒ;wind_vane;Wind Vane 10 Bits Serial Synchron;20160219;-;05 150036;0.351562;0.984
+Thies;40m;342ᵒ;anemometer;Anemometer First Class Advanced;20160219;-;07 157644;0.04599;0.2279
+Thies;20m;342ᵒ;anemometer;Anemometer First Class Advanced;20160219;-;07 157643;0.046;0.2399
+Galltec;5m;-;hygro_thermo;Thermo-Hygro Active KP;20160219;-;154329;100;-30
+Ammonit;4m;-;barometer;Barometric Pressure Sensor AB100;20160219;-;B15-0242;100;600
+
+FIELDS
+time : Date and Time according to ISO8601 (YYYY-MM-DD hh:mm)
+aX_wind_speed_min : Min Wind Speed (m/s)
+aX_wind_speed_max : Max Wind Speed (m/s)
+aX_wind_speed_mean : Mean Wind Speed (m/s)
+aX_wind_speed_stddev : Wind Speed (m/s) - standard deviation
+dX_wind_direction_mean : Wind direction in degrees North, counted clockwise
+dX_wind_direction_stddev : Wind direction in degrees North, counted clockwise-standard deviation
+pX_air_pressure_mean : Mean sea level air pressure in hPa
+pX_air_pressure_stddev : Mean sea level air pressure in hPa- standard deviation
+hX_relative_humidity_mean : Relative Humidity (%) -mean value
+hX_relative_humidity_stddev : Relative Humidity (%) -standard deviation
+tX_temperature_mean : Air Temperature (Deg C)
+tX_temperature_stddev : Air Temperature (Deg C)
+aX_turbulence_intensity : 10-minute standard deviation of the wind speed divided by the mean wind speed during that same time interval
+Comments:
+    - noValue : nan
+    - missing data : no data recorded over the period
+    - erroneous - all zeros : all aggregators (e.g. mean, min, max, stddev) equals to zero. Data likely incorrect
+    - flat line : no change of the mean value over a certain period. Data likely incorrect
+    - out of range : data out of typical range for the given parameter
+
+Note
+X = anemometer height (m); the entries are specific to each anemometer with X indicating its height.
+Column "Comments" stores wording coming from a standardized taxonomy of data exclusion types, such as:
+Missing Data/Erroneous/Iced/Maintenance Downtime/Suspect/Sensor Failure/etc.

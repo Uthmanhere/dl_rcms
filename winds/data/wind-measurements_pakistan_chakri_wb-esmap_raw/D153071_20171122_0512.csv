@@ -1,0 +1,214 @@
+Date/time,v80;wind_speed;Avg,v80;wind_speed;Max,v80;wind_speed;Min,v80;wind_speed;StdDev,v80;wind_speed;Count,v80V;wind_speed;Avg,v80V;wind_speed;Max,v80V;wind_speed;Min,v80V;wind_speed;StdDev,v80V;wind_speed;Count,v60;wind_speed;Avg,v60;wind_speed;Max,v60;wind_speed;Min,v60;wind_speed;StdDev,v60;wind_speed;Count,v40;wind_speed;Avg,v40;wind_speed;Max,v40;wind_speed;Min,v40;wind_speed;StdDev,v40;wind_speed;Count,v20;wind_speed;Avg,v20;wind_speed;Max,v20;wind_speed;Min,v20;wind_speed;StdDev,v20;wind_speed;Count,dir78.5 (deg);wind_direction;Avg,dir78.5 (deg);wind_direction;StdDev,dir78.5 (deg);wind_direction;Count,dir58.5 (deg);wind_direction;Avg,dir58.5 (deg);wind_direction;StdDev,dir58.5 (deg);wind_direction;Count,Temp/Hum5;humidity;Avg,Temp/Hum5;humidity;Max,Temp/Hum5;humidity;Min,Temp/Hum5;humidity;StdDev,Temp/Hum5;humidity;Count,temp76;temperature;Avg,temp76;temperature;Max,temp76;temperature;Min,temp76;temperature;StdDev,temp76;temperature;Count,Temp/Hum5;temperature;Avg,Temp/Hum5;temperature;Max,Temp/Hum5;temperature;Min,Temp/Hum5;temperature;StdDev,Temp/Hum5;temperature;Count,baro (mbar);air_pressure;Avg,baro (mbar);air_pressure;Max,baro (mbar);air_pressure;Min,baro (mbar);air_pressure;StdDev,baro (mbar);air_pressure;Count,A1;Avg,A1;Max,A1;Min,A1;StdDev,A2;Avg,A2;Max,A2;Min,A2;StdDev,A3;Avg,A3;Max,A3;Min,A3;StdDev,A4;Avg,A4;Max,A4;Min,A4;StdDev,C1;Avg,C1;Max,C1;Min,C1;StdDev,C2;Avg,C2;Max,C2;Min,C2;StdDev,C3;Avg,C3;Max,C3;Min,C3;StdDev,C4;Avg,C4;Max,C4;Min,C4;StdDev,C5;Avg,C5;Max,C5;Min,C5;StdDev,D1;Avg,D1;Max,D1;Min,D1;StdDev,D2;Avg,D2;Max,D2;Min,D2;StdDev,V;Avg,V;Max,V;Min,I;Avg,I;Max,I;Min,T,addr
+2017-11-22 05:10:00,0.8668,1.3099,0.2988,0.2084,131,0.6931,1.1452,0.3671,0.1997,131,0.7341,1.1364,0.4937,0.1446,131,0.6969,0.9178,0.3199,0.1347,131,0.7038,1.1139,0.4699,0.1306,131,157.3896,27.2950,131,143.5097,26.1082,131,57.9768,58.2904,57.7410,0.1573,131,14.55409,14.72793,14.34645,0.11454,131,15.05993,15.22233,14.96292,0.07418,131,974.5576,974.8589,974.5231,0.0561,131,3.7456,3.7486,3.7452,0.0006,0.45060,0.45222,0.44963,0.00074,0.5798,0.5829,0.5774,0.0016,0.44554,0.44728,0.44346,0.00115,10.0840,19.0000,5.0000,2.8394,10.1985,15.0000,2.0000,2.9284,10.2366,19.0000,5.0000,3.1497,13.3588,23.0000,1.0000,4.5338,5.3511,10.0000,2.0000,2.0529,403.8092,542,216,74.8785,441.3359,586,101,79.6122,13.55,13.66,13.46,61.4504,141,21,23.0,5455296
+
+[System]
+serial=D153071
+type=Meteo-40M
+name=Chakri
+timezone=UTC
+source_data_storage_total=1960.512 MiB
+software_version=1.7.10+9-1
+latitude=
+longitude=
+gps_fix=
+altitude=
+cecs_power_permanent=false
+modem_permanent=false;S1
+ethernet_permanent=false;none
+[Summary]
+csv_created=2017-11-23 05:00:54
+source_data_storage_used=1960.512 MiB
+[Evaluation]
+partial=false
+file_interval=daily
+stat_interval=10 min
+[Adjustment]
+CS1=200.23 μA
+CS2=200.00 μA
+[Master]
+rate=1 s
+serial_setting=38400 8N1
+[v80;wind_speed]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=m/s
+sensor_label=v80
+sensor_height=80
+sensor_type=anemometer
+sensor_model=Thies Anemometer First Class Advanced
+formula=linear_cnt
+params=C4;var_period;var_offset;var_slope
+var_period=1
+var_offset=0.2528
+var_slope=0.04596
+[v80V;wind_speed]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=m/s
+sensor_label=v80V
+sensor_height=80
+sensor_type=anemometer
+sensor_model=Vector L100 First Class
+formula=linear_cnt
+params=C5;var_period;var_offset;var_slope
+var_period=1
+var_offset=0.1726
+var_slope=0.09726
+[v60;wind_speed]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=m/s
+sensor_label=v60
+sensor_height=60
+sensor_type=anemometer
+sensor_model=Thies Anemometer First Class Advanced
+formula=linear_cnt
+params=C3;var_period;var_offset;var_slope
+var_period=1
+var_offset=0.2641
+var_slope=0.04591
+[v40;wind_speed]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=m/s
+sensor_label=v40
+sensor_height=40
+sensor_type=anemometer
+sensor_model=Thies Anemometer First Class Advanced
+formula=linear_cnt
+params=C2;var_period;var_offset;var_slope
+var_period=1
+var_offset=0.2279
+var_slope=0.04599
+[v20;wind_speed]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=m/s
+sensor_label=v20
+sensor_height=20
+sensor_type=anemometer
+sensor_model=Thies Anemometer First Class Advanced
+formula=linear_cnt
+params=C1;var_period;var_offset;var_slope
+var_period=1
+var_offset=0.2399
+var_slope=0.046
+[dir78.5 (deg);wind_direction]
+statistics=Avg;StdDev;Count;
+unit=°
+sensor_label=dir78.5 (deg)
+sensor_height=78.5
+sensor_type=wind_vane
+sensor_model=Thies Wind Vane 10 Bits Serial Synchron
+formula=windvane_dig
+params=D2;var_offset;var_slope
+var_offset=1.3334
+var_slope=0.3515625
+[dir58.5 (deg);wind_direction]
+statistics=Avg;StdDev;Count;
+unit=°
+sensor_label=dir58.5 (deg)
+sensor_height=58.5
+sensor_type=wind_vane
+sensor_model=Thies Wind Vane 10 Bits Serial Synchron
+formula=windvane_dig
+params=D1;var_offset;var_slope
+var_offset=0.984
+var_slope=0.3515625
+[Temp/Hum5;humidity]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=%
+sensor_label=Temp/Hum5
+sensor_height=5
+sensor_type=hygro_thermo
+sensor_model=Galltec Thermo-Hygro Active KP
+formula=linear_humidity
+params=A3;var_clip;var_offset;var_slope
+var_clip=100
+var_offset=0
+var_slope=100
+[temp76;temperature]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=°C
+sensor_label=temp76
+sensor_height=76
+sensor_type=hygro_thermo
+sensor_model=Galltec Thermosensor Active TP
+formula=linear
+params=A4;var_offset;var_slope
+var_offset=-30
+var_slope=100
+[Temp/Hum5;temperature]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=°C
+sensor_label=Temp/Hum5
+sensor_height=5
+sensor_type=hygro_thermo
+sensor_model=Galltec Thermo-Hygro Active KP
+formula=linear
+params=A2;var_offset;var_slope
+var_offset=-30
+var_slope=100
+[baro (mbar);air_pressure]
+statistics=Avg;Max;Min;StdDev;Count;
+unit=mbar
+sensor_label=baro (mbar)
+sensor_height=4
+sensor_type=barometer
+sensor_model=Barometric Pressure Sensor AB100
+formula=linear
+params=A1;var_offset;var_slope
+var_offset=600
+var_slope=100
+[A1]
+statistics=Avg;Max;Min;StdDev;
+unit=V
+rate=1 s
+range=10 V
+[A2]
+statistics=Avg;Max;Min;StdDev;
+unit=V
+rate=1 s
+range=1 V
+[A3]
+statistics=Avg;Max;Min;StdDev;
+unit=V
+rate=1 s
+range=10 V
+[A4]
+statistics=Avg;Max;Min;StdDev;
+unit=V
+rate=1 s
+range=1 V
+[C1]
+statistics=Avg;Max;Min;StdDev;
+unit=I
+rate=1 s
+[C2]
+statistics=Avg;Max;Min;StdDev;
+unit=I
+rate=1 s
+[C3]
+statistics=Avg;Max;Min;StdDev;
+unit=I
+rate=1 s
+[C4]
+statistics=Avg;Max;Min;StdDev;
+unit=I
+rate=1 s
+[C5]
+statistics=Avg;Max;Min;StdDev;
+unit=I
+rate=1 s
+[D1]
+statistics=Avg;Max;Min;StdDev;
+protocol=thies10bit
+rate=1 s
+[D2]
+statistics=Avg;Max;Min;StdDev;
+protocol=thies10bit
+rate=1 s
+[V]
+statistics=Avg;Max;Min;
+unit=V
+[I]
+statistics=Avg;Max;Min;
+unit=mA
+[T]
+statistics=Avg;
+unit=°C
